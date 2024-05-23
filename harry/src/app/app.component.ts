@@ -9,8 +9,4 @@ import { Observable } from 'rxjs';
 export class AppComponent {
 
   title = 'harry';
-
-  setTitle(inputVal: HTMLInputElement){
-    this.title = inputVal.value;
-  }
 }
